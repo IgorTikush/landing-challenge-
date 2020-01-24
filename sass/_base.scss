@@ -1,0 +1,40 @@
+// ### Primary
+
+$color-primary-pink: hsl(322, 100%, 66%);
+
+// ### Neutral
+
+$color-neutral-pale-cyan: hsl(193, 100%, 96%);
+$color-neutral-dark-cyan: hsl(192, 100%, 9%);
+$color-neutral-grey-blue: hsl(208, 11%, 55%);
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10rem = 10px
+
+    @media only screen and (max-width: 23.4375em) {
+        font-size: 43.75%;
+    
+    }
+
+}
+
+.btn {
+    border-radius: 2.5rem;
+    height: 4rem;
+    border: none;
+    box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .2);
+    font-weight: 700;
+    font-size: 1.4rem;
+    border: none;
+}
+

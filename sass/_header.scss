@@ -1,0 +1,65 @@
+.header {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: $color-neutral-pale-cyan;
+    padding: 4.5rem 5rem;
+
+    
+   
+    &__nav { 
+        margin-bottom: 5rem;
+        display: flex;
+        &__logo-box {
+
+
+        &--logo {
+            
+             height: 3rem;
+        }
+     }
+
+        &__btn-box {
+        text-align: end;
+        margin-left: auto;
+            .nav__btn__top {
+                width: 20rem;
+                @media only screen and (max-width: 23.4375em) {
+                    width: 15rem;
+                }
+        }
+    }
+
+}
+  &__ne-nav { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75REM, 1FR));
+    grid-row-gap: 5rem;
+
+    @media only screen and (max-width: 23.4375em) {
+        grid-template-columns: 1fr;
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+    &__text {
+        padding-top: 10rem;
+        padding-right: 8rem;
+        @media only screen and (max-width: 23.4375em) {
+            padding: 0 3rem;
+        }
+        .ne-nav__btn--pink {
+            background-color: $color-primary-pink;
+            color: #fff;
+            width: 50%;
+            
+            
+        }
+    }
+
+    &__image {
+       
+
+        img {
+            width: 100%;
+        }
+    }
+}
+}
